@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #202124;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-box {
+    padding-top: 12px;
+    text-align: right;
+}
+
+.nav-bar a {
+    margin: 10px;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline #fff;
+}
+
+.others {
+    display: inline-block;
+}
+
+.others a {
+    font-size: 22px;
+}
+
+.logo-box {
+    color: #fff;
+    height: 290px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 195px;
+}
+
+.search-sec {
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box {
+    height: 50px;
+    width: 580px;
+    background-color: #202124;
+    border-radius: 40px;
+    border: 0.5px solid #aaa;
+}
+
+input {
+    background-color: #202124;
+    padding: 2px;
+    margin: 2.5px 0px 0px 10px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    color: #fff;
+}
+
+.search a {
+    margin: 8px;
+    color: white;
+}
+
+span {
+    color: white;
+    margin: 20px 0px 0px 15px;
+}
+
+.box-2 {
+    color: #fff;
+    background-color: #202124;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.google-search {
+    font-size: 14px;
+    background-color: #303134;
+    height: 38px;
+    width: 120px;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+.lucky {
+    font-size: 14px;
+    background-color: #303134;
+    height: 38px;
+    width: 145px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 4px;
+}
+
+.google-search:hover,
+.lucky:hover {
+    border: 1px solid #aaa;
+}
+
+.lang {
+    text-align: center;
+    height: 334px;
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 545;
+}
+
+.lang a {
+    text-decoration: none;
+    color: #74a8d3;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.lang a:hover {
+    text-decoration: underline #74a8d3;
+}
+
+.foot-sec {
+    background-color: #171717;
+    color: #fff;
+}
+
+.foot-sec a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.india {
+    padding: 15px 0px 10px 25px;
+    background-color: #171717;
+    font-size: 14px;
+    border-bottom: 1px solid #7b7a7a;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    height: 38px;
+}
+
+.part1 {
+    padding-top: 10px;
+    margin-right: 618px;
+}
+
+.part2 {
+    padding-top: 10px;
+    margin-left: 650px;
+}
+
+.part1 a {
+    margin-right: 25px;
+}
+
+.part2 a {
+    margin-right: 25px;
+    color: #fff;
+}
+
+.part1 a:hover, .part2 a:hover{
+    text-decoration: underline #fff;
+}
